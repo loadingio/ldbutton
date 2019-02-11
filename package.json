@@ -1,0 +1,20 @@
+{
+  "author": "Kirby Wu",
+  "name": "loading-buttons",
+  "license": "MIT",
+  "description": "css for buttons that load",
+  "version": "0.0.1",
+  "homepage": "https://github.com/loadingio/ldBtn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loadingio/ldBtn"
+  },
+  "engines": {
+    "node": ">=0.12.6",
+    "npm": ">=1.2.2"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "uglifycss": "0.0.29"
+  }
+}
