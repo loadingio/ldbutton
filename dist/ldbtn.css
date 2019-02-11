@@ -38,6 +38,7 @@
 .ld-over-full-inverse.running > .ld {
   opacity: 1;
   z-index: auto;
+  visibility: visible;
 }
 .ld-ext-right.running {
   padding-right: 2.5em !important;
