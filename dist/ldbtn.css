@@ -9,7 +9,6 @@
   position: relative;
   transition: all 0.3s;
   transition-timing-function: ease-in;
-  overflow: hidden;
 }
 .ld-ext-right > .ld,
 .ld-ext-left > .ld,
@@ -72,12 +71,6 @@
   left: 50%;
   top: 1em;
 }
-.ld-over,
-.ld-over-inverse,
-.ld-over-full,
-.ld-over-full-inverse {
-  overflow: hidden;
-}
 .ld-over.running > .ld,
 .ld-over-inverse.running > .ld,
 .ld-over-full.running > .ld,
@@ -101,8 +94,10 @@
   transition-timing-function: ease-in;
   background: rgba(240,240,240,0.8);
 }
-.ld-over-full > .ld,
-.ld-over-full-inverse > .ld {
+.ld-over-full.running > .ld,
+.ld-over-full-inverse.running > .ld,
+.ld-over-full.running:before,
+.ld-over-full-inverse.running:before {
   position: fixed;
 }
 .ld-over-full > .ld {
@@ -111,7 +106,6 @@
 .ld-over-full:before,
 .ld-over-full-inverse:before {
   z-index: -1;
-  position: fixed;
   background: rgba(255,255,255,0.8);
 }
 .ld-over.running > .ld,

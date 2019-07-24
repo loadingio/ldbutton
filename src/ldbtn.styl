@@ -2,7 +2,6 @@
   position: relative
   transition: all .3s
   transition-timing-function: ease-in
-  overflow: hidden
   & > .ld
     position: absolute
     top: 50%
@@ -46,7 +45,6 @@
   top: 1em
 
 .ld-over, .ld-over-inverse, .ld-over-full, .ld-over-full-inverse
-  overflow: hidden
   &.running > .ld
     z-index: 99999
   &:before
@@ -63,14 +61,15 @@
     transition-timing-function: ease-in
     background: rgba(240,240,240,0.8)
 
-.ld-over-full > .ld, .ld-over-full-inverse > .ld
-  position: fixed
+.ld-over-full.running, .ld-over-full-inverse.running
+  & > .ld, &:before
+    position: fixed
 
 .ld-over-full > .ld
   color: rgba(0,0,0,0.8)
+
 .ld-over-full:before, .ld-over-full-inverse:before
   z-index: -1
-  position: fixed
   background: rgba(255,255,255,0.8)
 
 .ld-over.running, .ld-over-inverse.running, .ld-over-full.running, .ld-over-full-inverse.running
