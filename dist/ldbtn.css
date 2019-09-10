@@ -112,14 +112,14 @@
 .ld-over-inverse.running > .ld,
 .ld-over-full.running > .ld,
 .ld-over-full-inverse.running > .ld {
-  z-index: 999999;
+  z-index: 10001;
 }
 .ld-over.running:before,
 .ld-over-inverse.running:before,
 .ld-over-full.running:before,
 .ld-over-full-inverse.running:before {
   opacity: 1;
-  z-index: 999998;
+  z-index: 10000;
   display: block;
 }
 .ld-over-inverse > .ld {
