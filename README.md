@@ -1,4 +1,4 @@
-# loading buttons
+# Loading Buttons
 
 CSS for button that loads. check https://loading.io/button/ for more information.
 
