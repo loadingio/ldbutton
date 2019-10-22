@@ -4,10 +4,10 @@
   "license": "MIT",
   "description": "css for buttons that load",
   "version": "0.0.1",
-  "homepage": "https://github.com/loadingio/ldButton",
+  "homepage": "https://github.com/loadingio/ldbutton",
   "repository": {
     "type": "git",
-    "url": "https://github.com/loadingio/ldButton"
+    "url": "https://github.com/loadingio/ldbutton"
   },
   "engines": {
     "node": ">=0.12.6",
