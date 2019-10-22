@@ -6,11 +6,20 @@
     position: absolute
     top: 50%
     left: 50%
+    width: 1em
+    height: 1em
     margin: -.5em
     opacity: 0
     z-index: -1
     transition: all .3s
     transition-timing-function: ease-in
+    & > *
+      width: 1em
+      height: 1em
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-.5em,-.5em)
   &.running > .ld
     opacity: 1
     z-index: auto
@@ -21,28 +30,28 @@
 .ld-ext-right > .ld
   top: 50%
   left: auto
-  right: 1em
+  right: 1.25em
 
 .ld-ext-left.running
   padding-left: 2.5em!important
 .ld-ext-left > .ld
   top: 50%
   right: auto
-  left: 1em
+  left: 1.25em
 
 .ld-ext-bottom.running
   padding-bottom: 2.5em!important
 .ld-ext-bottom > .ld
   top: auto
   left: 50%
-  bottom: 1em
+  bottom: 1.25em
 
 .ld-ext-top.running
   padding-top: 2.5em!important
 .ld-ext-top > .ld
   bottom: auto
   left: 50%
-  top: 1em
+  top: 1.25em
 
 .ld-over, .ld-over-inverse, .ld-over-full, .ld-over-full-inverse
   &:before

@@ -21,11 +21,28 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 1em;
+  height: 1em;
   margin: -0.5em;
   opacity: 0;
   z-index: -1;
   transition: all 0.3s;
   transition-timing-function: ease-in;
+}
+.ld-ext-right > .ld > *,
+.ld-ext-left > .ld > *,
+.ld-ext-bottom > .ld > *,
+.ld-ext-top > .ld > *,
+.ld-over > .ld > *,
+.ld-over-inverse > .ld > *,
+.ld-over-full > .ld > *,
+.ld-over-full-inverse > .ld > * {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-0.5em, -0.5em);
 }
 .ld-ext-right.running > .ld,
 .ld-ext-left.running > .ld,
@@ -45,7 +62,7 @@
 .ld-ext-right > .ld {
   top: 50%;
   left: auto;
-  right: 1em;
+  right: 1.25em;
 }
 .ld-ext-left.running {
   padding-left: 2.5em !important;
@@ -53,7 +70,7 @@
 .ld-ext-left > .ld {
   top: 50%;
   right: auto;
-  left: 1em;
+  left: 1.25em;
 }
 .ld-ext-bottom.running {
   padding-bottom: 2.5em !important;
@@ -61,7 +78,7 @@
 .ld-ext-bottom > .ld {
   top: auto;
   left: 50%;
-  bottom: 1em;
+  bottom: 1.25em;
 }
 .ld-ext-top.running {
   padding-top: 2.5em !important;
@@ -69,7 +86,7 @@
 .ld-ext-top > .ld {
   bottom: auto;
   left: 50%;
-  top: 1em;
+  top: 1.25em;
 }
 .ld-over:before,
 .ld-over-inverse:before,

@@ -3,8 +3,8 @@
   "name": "ldbutton",
   "license": "MIT",
   "description": "css for buttons that load",
-  "version": "1.0.0",
-  "homepage": "https://github.com/loadingio/ldbutton",
+  "version": "1.0.1",
+  "homepage": "https://loading.io/button/",
   "repository": {
     "type": "git",
     "url": "https://github.com/loadingio/ldbutton"
