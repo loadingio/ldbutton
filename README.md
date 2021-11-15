@@ -4,7 +4,7 @@ CSS for button that loads. check https://loading.io/button/ for more information
 
 # usage
 
-1. include ldbtn.css and loading.:
+1. include ldbtn.css and loading.css:
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/loadingio/ldButton@2.0.0/dist/ldbtn.css"/>
 
