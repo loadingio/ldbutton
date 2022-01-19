@@ -4,12 +4,16 @@ CSS for button that loads. check https://loading.io/button/ for more information
 
 # usage
 
-1. include ldbtn.css and loading.css:
+install with npm:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/loadingio/ldButton@2.0.0/dist/ldbtn.css"/>
+    npm install --save ldbutton
+
+include required css file ( you may also need loading.css for spinner related css ):
+
+    <link rel="stylesheet" type="text/css" href="path-to-ldbutton-css-file"/>
 
 
-2. add class for one of the desired effect to your button, along with a loader inside:
+add class for one of the desired effect to your button, along with a loader inside:
 
     <div class="btn btn-primary ld-ext-right">
       <div class="ld ld-ball ld-bounce"></div>
@@ -24,7 +28,7 @@ CSS for button that loads. check https://loading.io/button/ for more information
       <div class="ld ld-ball ld-bounce"></div>
     </div>
  
-You can also use [ldLoader](https://loading.io/lib/loader/) to manipulate loader's state.
+You can also use [ldloader](https://loading.io/lib/loader/) to manipulate loader's state.
 
 For more information about how to use loading buttons, please check the [online documentation here](https://loading.io/button/).
 
