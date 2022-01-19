@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+rm -rf dist
 mkdir -p dist
-echo "build src/ldbtn.styl -> dist/ldbtn.css ..."
-./node_modules/.bin/stylus -p src/ldbtn.styl > dist/ldbtn.css
-echo "minifying ldbtn.css ..."
-./node_modules/.bin/uglifycss dist/ldbtn.css > dist/ldbtn.min.css
+echo "build src/index.styl -> dist/index.css ..."
+./node_modules/.bin/stylus -p src/index.styl > dist/index.css
+echo "minifying index.css ..."
+./node_modules/.bin/uglifycss dist/index.css > dist/index.min.css
 echo "done."
 
