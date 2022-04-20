@@ -5,5 +5,8 @@ echo "build src/index.styl -> dist/index.css ..."
 ./node_modules/.bin/stylus -p src/index.styl > dist/index.css
 echo "minifying index.css ..."
 ./node_modules/.bin/uglifycss dist/index.css > dist/index.min.css
+echo "Copy dist/ to web/ ..."
+rm -rf web/static/assets/lib/ldbutton/dev/
+mkdir -p web/static/assets/lib/ldbutton/dev/
+cp -R dist/* web/static/assets/lib/ldbutton/dev/
 echo "done."
-

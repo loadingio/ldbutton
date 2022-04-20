@@ -1,0 +1,26 @@
+doctype html
+html
+  include @/@loadingio/bootstrap.ext/index.pug
+  include @/ldview/index.pug
+  head
+    +css([
+      {name: "bootstrap", path: "dist/css/bootstrap.min.css"},
+      {name: "@loadingio/bootstrap.ext"},
+      {name: "@loadingio/loading.css", path: "lite.min.css"},
+      {name: "ldcover"},
+      {name: "ldbutton", version: "dev"}
+    ])
+  body
+    .w-1024.rwd.mx-auto.my-4
+      .btn.btn-outline-secondary.ld-ext-right.d-flex.align-items-center.justify-content-center.g-2(ld="loader")
+        .mr-2 test button
+        .ld.ld-ring.ld-spin
+    +script([
+      {name: "proxise"},
+      {name: "@loadingio/ldquery"},
+      {name: "@loadingio/debounce.js"},
+      {name: "ldloader"},
+      {name: "ldcover"},
+      {name: "ldview"}
+    ])
+    script(type="module"): include:lsc index.ls

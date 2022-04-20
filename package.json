@@ -3,22 +3,49 @@
   "name": "ldbutton",
   "license": "MIT",
   "description": "css for buttons that load",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "style": "dist/index.min.css",
   "homepage": "https://loading.io/button/",
   "repository": {
     "type": "git",
     "url": "https://github.com/loadingio/ldButton"
   },
+  "scripts": {
+    "start": "npx server -r web -o true"
+  },
   "engines": {
     "node": ">=0.12.6",
     "npm": ">=1.2.2"
   },
   "devDependencies": {
+    "@loadingio/bootstrap.ext": "^0.0.6",
+    "@loadingio/debounce.js": "^1.0.1",
+    "@loadingio/ldquery": "^3.0.3",
+    "@loadingio/loading.css": "^3.1.0",
+    "bootstrap": "^5.1.3",
+    "fedep": "^1.1.7",
+    "ldcover": "^3.0.1",
+    "ldloader": "^3.0.0",
+    "ldview": "^1.1.1",
+    "proxise": "^1.0.1",
     "stylus": "^0.55.0",
     "uglifycss": "0.0.29"
   },
+  "frontendDependencies": {
+    "root": "web/static/assets/lib",
+    "modules": [
+      "@loadingio/bootstrap.ext",
+      "@loadingio/ldquery",
+      "@loadingio/debounce.js",
+      "@loadingio/loading.css",
+      "bootstrap",
+      "ldcover",
+      "ldloader",
+      "ldview",
+      "proxise"
+    ]
+  },
   "dependencies": {
-    "fedep": "^1.1.0"
+    "@zbryikt/template": "^2.3.34"
   }
 }
