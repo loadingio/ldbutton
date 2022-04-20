@@ -1,7 +1,5 @@
 .ld-ext-right, .ld-ext-left, .ld-ext-bottom, .ld-ext-top, .ld-over, .ld-over-inverse, .ld-over-full, .ld-over-full-inverse
   position: relative
-  transition: all .3s
-  transition-timing-function: ease-in
   & > .ld
     position: absolute
     top: 50%
@@ -25,7 +23,11 @@
     z-index: auto
     visibility: visible
 
+.ld-ext-right, .ld-ext-left, .ld-ext-bottom, .ld-ext-top
+  transition-timing-function: ease-in
+
 .ld-ext-right.running
+  transition: padding-right .3s
   padding-right: 2.5em!important
 .ld-ext-right > .ld
   top: 50%
@@ -33,6 +35,7 @@
   right: 1.25em
 
 .ld-ext-left.running
+  transition: padding-left .3s
   padding-left: 2.5em!important
 .ld-ext-left > .ld
   top: 50%
@@ -40,6 +43,7 @@
   left: 1.25em
 
 .ld-ext-bottom.running
+  transition: padding-bottom .3s
   padding-bottom: 2.5em!important
 .ld-ext-bottom > .ld
   top: auto
@@ -47,6 +51,7 @@
   bottom: 1.25em
 
 .ld-ext-top.running
+  transition: padding-top .3s
   padding-top: 2.5em!important
 .ld-ext-top > .ld
   bottom: auto
