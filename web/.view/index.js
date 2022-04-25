@@ -288,8 +288,64 @@ pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
 ;pug_debug_line = 16;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
 pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
 ;pug_debug_line = 17;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
-pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
 ;pug_debug_line = 18;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"btn btn-outline-secondary ld-ext-top d-flex align-items-center justify-content-center g-2\" ld=\"loader\"\u003E";
+;pug_debug_line = 19;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
+;pug_debug_line = 19;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
+;pug_debug_line = 20;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+;pug_debug_line = 21;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"btn btn-outline-secondary ld-ext-left d-flex align-items-center justify-content-center g-2\" ld=\"loader\"\u003E";
+;pug_debug_line = 22;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
+;pug_debug_line = 22;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
+;pug_debug_line = 23;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+;pug_debug_line = 24;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"btn btn-outline-secondary ld-ext-bottom d-flex align-items-center justify-content-center g-2\" ld=\"loader\"\u003E";
+;pug_debug_line = 25;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
+;pug_debug_line = 25;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
+;pug_debug_line = 26;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+;pug_debug_line = 27;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"btn btn-outline-secondary ld-over d-flex align-items-center justify-content-center g-2\" ld=\"loader\"\u003E";
+;pug_debug_line = 28;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
+;pug_debug_line = 28;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
+;pug_debug_line = 29;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+;pug_debug_line = 30;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"btn btn-outline-secondary ld-over-inverse d-flex align-items-center justify-content-center g-2\" ld=\"loader\"\u003E";
+;pug_debug_line = 31;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
+;pug_debug_line = 31;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
+;pug_debug_line = 32;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+;pug_debug_line = 33;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"btn btn-outline-secondary ld-over-full d-flex align-items-center justify-content-center g-2\" ld=\"loader\"\u003E";
+;pug_debug_line = 34;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
+;pug_debug_line = 34;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
+;pug_debug_line = 35;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+;pug_debug_line = 36;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"btn btn-outline-secondary ld-over-full-inverse d-flex align-items-center justify-content-center g-2\" ld=\"loader\"\u003E";
+;pug_debug_line = 37;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"mr-2\"\u003E";
+;pug_debug_line = 37;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "test button\u003C\u002Fdiv\u003E";
+;pug_debug_line = 38;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+pug_html = pug_html + "\u003Cdiv class=\"ld ld-ring ld-spin\"\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E";
+;pug_debug_line = 39;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
 pug_mixins["script"]([
       {name: "proxise"},
       {name: "@loadingio/ldquery"},
@@ -298,9 +354,9 @@ pug_mixins["script"]([
       {name: "ldcover"},
       {name: "ldview"}
     ]);
-;pug_debug_line = 26;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+;pug_debug_line = 47;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
 pug_html = pug_html + "\u003Cscript type=\"module\"\u003E";
-;pug_debug_line = 26;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
+;pug_debug_line = 47;pug_debug_filename = "src\u002Fpug\u002Findex.pug";
 pug_html = pug_html + "var view;view=new ldview({root:document.body,action:{click:{loader:function(o){var l,e;l=o.node,e=o.local;return e.ldld.toggle()}}},init:{loader:function(o){var l,e;l=o.node,e=o.local;return e.ldld=new ldloader({root:l})}}});\u003C\u002Fscript\u003E\u003C\u002Fbody\u003E\u003C\u002Fhtml\u003E";
     }.call(this, "Array" in locals_for_with ?
         locals_for_with.Array :
