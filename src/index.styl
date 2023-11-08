@@ -11,6 +11,7 @@
     z-index: -1
     transition: all .3s
     transition-timing-function: ease-in
+    animation-play-state: paused
     & > *
       width: 1em
       height: 1em
@@ -22,36 +23,37 @@
     opacity: 1
     z-index: auto
     visibility: visible
+    animation-play-state: running
 
 .ld-ext-right, .ld-ext-left, .ld-ext-bottom, .ld-ext-top
   transition-timing-function: ease-in
 
+.ld-ext-right { transition: padding-right .3s }
 .ld-ext-right.running
-  transition: padding-right .3s
   padding-right: 2.5em!important
 .ld-ext-right > .ld
   top: 50%
   left: auto
   right: 1.25em
 
+.ld-ext-left { transition: padding-left .3s }
 .ld-ext-left.running
-  transition: padding-left .3s
   padding-left: 2.5em!important
 .ld-ext-left > .ld
   top: 50%
   right: auto
   left: 1.25em
 
+.ld-ext-bottom { transition: padding-bottom .3s }
 .ld-ext-bottom.running
-  transition: padding-bottom .3s
   padding-bottom: 2.5em!important
 .ld-ext-bottom > .ld
   top: auto
   left: 50%
   bottom: 1.25em
 
+.ld-ext-top { transition: padding-top .3s }
 .ld-ext-top.running
-  transition: padding-top .3s
   padding-top: 2.5em!important
 .ld-ext-top > .ld
   bottom: auto

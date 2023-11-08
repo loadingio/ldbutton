@@ -26,6 +26,7 @@
   z-index: -1;
   transition: all 0.3s;
   transition-timing-function: ease-in;
+  animation-play-state: paused;
 }
 .ld-ext-right > .ld > *,
 .ld-ext-left > .ld > *,
@@ -53,6 +54,7 @@
   opacity: 1;
   z-index: auto;
   visibility: visible;
+  animation-play-state: running;
 }
 .ld-ext-right,
 .ld-ext-left,
@@ -60,8 +62,10 @@
 .ld-ext-top {
   transition-timing-function: ease-in;
 }
-.ld-ext-right.running {
+.ld-ext-right {
   transition: padding-right 0.3s;
+}
+.ld-ext-right.running {
   padding-right: 2.5em !important;
 }
 .ld-ext-right > .ld {
@@ -69,8 +73,10 @@
   left: auto;
   right: 1.25em;
 }
-.ld-ext-left.running {
+.ld-ext-left {
   transition: padding-left 0.3s;
+}
+.ld-ext-left.running {
   padding-left: 2.5em !important;
 }
 .ld-ext-left > .ld {
@@ -78,8 +84,10 @@
   right: auto;
   left: 1.25em;
 }
-.ld-ext-bottom.running {
+.ld-ext-bottom {
   transition: padding-bottom 0.3s;
+}
+.ld-ext-bottom.running {
   padding-bottom: 2.5em !important;
 }
 .ld-ext-bottom > .ld {
@@ -87,8 +95,10 @@
   left: 50%;
   bottom: 1.25em;
 }
-.ld-ext-top.running {
+.ld-ext-top {
   transition: padding-top 0.3s;
+}
+.ld-ext-top.running {
   padding-top: 2.5em !important;
 }
 .ld-ext-top > .ld {
