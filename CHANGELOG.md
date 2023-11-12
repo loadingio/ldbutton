@@ -1,6 +1,6 @@
 # Change Logs
 
-## v2.0.2 (upcoming)
+## v2.0.2
 
  - set animatin-play-state based on if it's running
  - set transition on base classes instead of when running
