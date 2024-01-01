@@ -1,5 +1,10 @@
 # Change Logs
 
+## v2.0.4
+
+ - add `!important` for `running` in `animation-play-state` style to ensure animation to be succeffully run
+
+
 ## v2.0.3
 
  - animation-play-state should be running for ld element and its pseudo child.

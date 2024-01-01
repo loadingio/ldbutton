@@ -54,7 +54,7 @@
   opacity: 1;
   z-index: auto;
   visibility: visible;
-  animation-play-state: running;
+  animation-play-state: running !important;
 }
 .ld-ext-right.running > .ld:before,
 .ld-ext-left.running > .ld:before,
@@ -72,7 +72,7 @@
 .ld-over-inverse.running > .ld:after,
 .ld-over-full.running > .ld:after,
 .ld-over-full-inverse.running > .ld:after {
-  animation-play-state: running;
+  animation-play-state: running !important;
 }
 .ld-ext-right,
 .ld-ext-left,
