@@ -3,7 +3,7 @@
   "name": "ldbutton",
   "license": "MIT",
   "description": "css for buttons that load",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "style": "dist/index.min.css",
   "homepage": "https://loading.io/button/",
   "repository": {

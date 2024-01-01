@@ -1,5 +1,10 @@
 # Change Logs
 
+## v2.0.3
+
+ - animation-play-state should be running for ld element and its pseudo child.
+
+
 ## v2.0.2
 
  - set animatin-play-state based on if it's running

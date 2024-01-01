@@ -56,6 +56,24 @@
   visibility: visible;
   animation-play-state: running;
 }
+.ld-ext-right.running > .ld:before,
+.ld-ext-left.running > .ld:before,
+.ld-ext-bottom.running > .ld:before,
+.ld-ext-top.running > .ld:before,
+.ld-over.running > .ld:before,
+.ld-over-inverse.running > .ld:before,
+.ld-over-full.running > .ld:before,
+.ld-over-full-inverse.running > .ld:before,
+.ld-ext-right.running > .ld:after,
+.ld-ext-left.running > .ld:after,
+.ld-ext-bottom.running > .ld:after,
+.ld-ext-top.running > .ld:after,
+.ld-over.running > .ld:after,
+.ld-over-inverse.running > .ld:after,
+.ld-over-full.running > .ld:after,
+.ld-over-full-inverse.running > .ld:after {
+  animation-play-state: running;
+}
 .ld-ext-right,
 .ld-ext-left,
 .ld-ext-bottom,
