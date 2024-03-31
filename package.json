@@ -18,16 +18,16 @@
     "npm": ">=1.2.2"
   },
   "devDependencies": {
-    "@loadingio/bootstrap.ext": "^0.0.11",
+    "@loadingio/bootstrap.ext": "^0.0.12",
     "@loadingio/debounce.js": "^1.0.1",
-    "@loadingio/ldquery": "^3.0.5",
-    "@loadingio/loading.css": "^3.2.0",
+    "@loadingio/ldquery": "^3.0.6",
+    "@loadingio/loading.css": "^3.2.1",
     "@zbryikt/template": "^2.3.45",
     "bootstrap": "^4.6.1",
-    "fedep": "^1.1.11",
-    "ldcover": "^3.5.3",
-    "ldloader": "^3.0.2",
-    "ldview": "^1.4.0",
+    "fedep": "^1.3.0",
+    "ldcover": "^3.5.4",
+    "ldloader": "^3.0.3",
+    "ldview": "^1.4.2",
     "proxise": "^1.0.1",
     "stylus": "^0.55.0",
     "uglifycss": "0.0.29"

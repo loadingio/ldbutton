@@ -1,5 +1,10 @@
 # Change Logs
 
+## v2.0.5 (upcoming)
+
+ - upgrade dev dependencies
+
+
 ## v2.0.4
 
  - add `!important` for `running` in `animation-play-state` style to ensure animation to be succeffully run
