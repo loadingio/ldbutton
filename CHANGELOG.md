@@ -1,8 +1,9 @@
 # Change Logs
 
-## v2.0.5 (upcoming)
+## v2.0.5
 
  - upgrade dev dependencies
+ - create a new stacking context for `ld-over` and `ld-over-inverse` elements.
 
 
 ## v2.0.4
