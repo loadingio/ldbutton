@@ -99,3 +99,9 @@
 .ld-over-full-inverse
   & > .ld  { color: rgba(255,255,255,0.8) }
   &:before { background: rgba(0,0,0,0.6)  }
+
+/* we want to prevent the mask from stacking above elements other than its direct parent,
+ * without relying on the parent's z-index, position or any other styles.
+ * This can be achieved simply by applying `isolation: isloate` to create a new stack context. */
+.ld-over, .ld-over-inverse
+  isolation: isolate
